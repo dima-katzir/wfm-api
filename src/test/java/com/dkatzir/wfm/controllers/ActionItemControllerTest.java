@@ -10,12 +10,12 @@ class ActionItemControllerTest {
     ActionItemController actionItemController = new ActionItemController();
 
     @Test
-    public void testCreateActionItem() {
+    void testCreateActionItem() {
         actionItemController.createActionItem(new ActionItemRequest());
     }
 
     @Test
-    public void testGetActionItem() {
+    void testGetActionItem() {
         int testId = 1;
         ActionItemResponse actionItemResponse = actionItemController.getActionItem(testId);
     }
